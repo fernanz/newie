@@ -1,0 +1,131 @@
+@font-face { font-family: OpenSans;
+             src: url("OpenSans-Light.ttf"); }
+@font-face { font-family: WorkSans;
+             src: url("WorkSans-Bold.ttf"); }
+
+/* All that's necessary */
+
+
+.container {
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  clear:left;
+}
+.container > div {
+    display: inline-block;
+  /* fixes a quirk in Safari */
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 100%;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  /**
+   * flex: x y z;
+  /**
+   * is shorthand for:
+   * flex-grow: x
+   * flex-shrink: y
+   * flex-basis: z
+   **/
+}
+
+/* Default style, has nothing to do with flex */
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #181818;
+  -webkit-transition: color 0.5s ease;
+          transition: color 0.5s ease;
+}
+a:hover {
+  color: #252525;
+}
+
+.container {
+  font-family: "OpenSans", Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 1.7rem;     
+}
+
+.container > div{
+  background-color: none;
+  padding: 1rem 2rem 0;
+}
+.container > div:first-child {
+  background-color: none;
+}
+.container > div:last-child {
+  background-color: none; 
+}
+.container > div p {
+  margin-bottom: 2rem;
+  width: 85%;    
+}
+
+.container > div a {
+	text-decoration: none;
+	border-bottom: 1px dotted #333;
+}
+
+.container > div a:hover {
+	color: #fff;
+	border-bottom: 1px dotted #fff;
+}
+.container > div img {
+  width: 100%;
+  border-bottom: 3px solid #bada55;
+  border-radius: 5px 5px 0 0;      
+}
+
+.container > div figure {
+ margin-bottom:-10px;      
+}
+.container h2 {
+  font-family: "workSans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.container code {
+  background-color: rgba(255, 255, 255, 0.125);
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.125);
+  padding: 0.2rem;
+  font-family: monospace;
+}
+
+/** Your style properties **/
+/**
+ * .one {
+ * order: 3;
+ *  }
+ *
+ * .two {
+ * order: 1;
+ *  }
+ *
+ * .three {
+ * order: 2;
+ *  }
+ **/
+ 
+ 
+@media (max-width: 760px) { .container {
+ -webkit-flex-flow: row wrap; /* Fix for iOS */
+	-moz-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	justify-content: space-around;
+    }
+    .container > div p {
+  width: 92%;    
+}
+}

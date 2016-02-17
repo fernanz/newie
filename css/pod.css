@@ -1,0 +1,95 @@
+
+
+.pod{
+    background: url(../Pics/sens.jpg);
+    max-width: 700px;
+    margin: 0 auto 35px auto;
+    float:left;
+}
+
+.pod > div{
+    padding: 1rem;
+}
+
+.audio{
+    border-radius: 0 0 10px 10px;
+    background-color: rgba(74,95,112,0.8);
+}
+
+.pod{
+    border-radius: 10px;
+}
+
+.audio > div{
+    background-color: white;
+    padding: 1em;
+}
+
+.content h2{
+	font-family: "WorkSans", sans-serif;
+	font-weight: bold;
+	font-size: 2rem;
+    color: #ffffff;
+}
+
+.content h2 span{
+    font-family: "OpenSans", sans-serif;
+    font-weight: normal;
+    font-size: 1.7rem;
+}
+
+.content h2 span,
+.content time,
+.audio > div
+{
+    color: #fffff8;
+}
+
+.content > p {
+	font-family: "OpenSans", sans-serif;
+	font-weight: normal;
+	font-size: 1.3rem;
+    color:#fff;
+}
+
+.content > p > a:visited,
+.content > p > a {
+    color: orange;
+    text-decoration: none;
+    border-bottom: none !important;
+    
+}
+
+
+.audio > div > span{
+    color: rgb(31, 152, 199);
+    text-decoration: none;
+    
+}
+
+
+/* layout */
+
+.pod .content
+{
+    padding-left: 1.7em;
+}
+
+.pod > img{
+    position: absolute;
+    display: inline-block;
+    height: 200px;
+    margin: 20px 0 20px 45px;
+}
+
+.content > *{
+    padding: .25em 0;
+}
+
+
+.content > time {
+    display: block;
+    margin-top: 1em;
+    font-size: 1rem;
+    font-family: "Hack", sans-serif;
+}
