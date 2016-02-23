@@ -80,7 +80,8 @@ h2 { font-family: "Oswald";
      margin-top: 2.1rem;
      margin-bottom: 0;
      font-size: 2.2rem;
-     line-height: 1; }
+     line-height: 1; 
+     color: darkslategrey;}
 
 h3 { font-family: "Oswald"; 
 	 font-style: normal;
@@ -100,13 +101,15 @@ p.subtitle { font-style: normal;
 
 
 .mid {
-	background: rgba(74,95,112,0.3);
-	padding: 25px 15px 35px 50px;
+	background: transparent;
+	padding: 5px 25px;
     width: 100%;
+    min-height: 75px;
     margin-left: auto;
     margin-right: auto;
+    position: relative; 
 }
-    
+  
 #footer {
 	background-color: #4a5f70;
 	border-top: 3px solid #bada55;

@@ -1,7 +1,7 @@
 @font-face { font-family: OpenSans;
-             src: url("OpenSans-Light.ttf"); }
+             src: url("fonts/OpenSans-Light.ttf"); }
 @font-face { font-family: WorkSans;
-             src: url("WorkSans-Bold.ttf"); }
+             src: url("fonts/WorkSans-Bold.ttf"); }
 
 /* All that's necessary */
 
@@ -71,8 +71,9 @@ a:hover {
 }
 
 .container > div a {
-	text-decoration: none;
-	border-bottom: 1px dotted #333;
+	color: darkslategrey;
+    text-decoration: none;
+	border-bottom: 1px dotted darkslategrey;
 }
 
 .container > div a:hover {
@@ -89,10 +90,12 @@ a:hover {
  margin-bottom:-10px;      
 }
 .container h2 {
-  font-family: "workSans", sans-serif;
+  font-family: "WorkSans", sans-serif;
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 1rem;
+  letter-spacing: 1px;
+  color: darkslategrey;
 }
 .container code {
   background-color: rgba(255, 255, 255, 0.125);
