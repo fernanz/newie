@@ -18,5 +18,5 @@ github_username:  fernanz
 # Build settings
 name: FERNANDO MAYORGA
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
