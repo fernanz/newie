@@ -1,6 +1,6 @@
 @font-face { font-family: OpenSans;
              src: url("fonts/OpenSans-Light.ttf"); }
-@font-face { font-family: WorkSans;
+@font-face { font-family: WorkSans-Bold;
              src: url("fonts/WorkSans-Bold.ttf"); }
 
 /* All that's necessary */
@@ -39,20 +39,11 @@
   box-sizing: border-box;
 }
 
-a {
-  color: #181818;
-  -webkit-transition: color 0.5s ease;
-          transition: color 0.5s ease;
-}
-a:hover {
-  color: #252525;
-}
-
 .container {
   font-family: "OpenSans", Helvetica, sans-serif;
   font-weight: normal;
   font-size: 1.3rem;
-  line-height: 1.7rem;     
+  line-height: 1.7rem;
 }
 
 .container > div{
@@ -63,45 +54,63 @@ a:hover {
   background-color: none;
 }
 .container > div:last-child {
-  background-color: none; 
+  background-color: none;
 }
 .container > div p {
-  margin-bottom: 2rem;
-  width: 85%;    
+  margin-bottom: 0;
+  width: 85%;
 }
 
 .container > div a {
 	color: darkslategrey;
-    text-decoration: none;
-	border-bottom: 1px dotted darkslategrey;
+  text-decoration: none !important;
 }
 
 .container > div a:hover {
 	color: #fff;
-	border-bottom: 1px dotted #fff;
 }
+
 .container > div img {
   width: 100%;
-  border-bottom: 3px solid #bada55;
-  border-radius: 5px 5px 0 0;      
+  border-radius: 5px;
+  -webkit-filter: opacity(0.8);
+  -moz-filter: opacity(0.8);
+  filter: opacity(0.8);
+}
+
+.container > div img:hover {
+  width: 100%;
+  border-radius: 5px;
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
 }
 
 .container > div figure {
- margin-bottom:-10px;      
+ margin-bottom:-10px;
 }
-.container h2 {
-  font-family: "WorkSans", sans-serif;
+.container > div h2 {
+  font-family: "WorkSans-Bold", sans-serif;
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: bold;
   margin-bottom: 1rem;
   letter-spacing: 1px;
   color: darkslategrey;
 }
+
 .container code {
   background-color: rgba(255, 255, 255, 0.125);
   box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.125);
   padding: 0.2rem;
   font-family: monospace;
+}
+
+h2 > a {
+  border-bottom: none !important;
 }
 
 /** Your style properties **/
@@ -118,8 +127,8 @@ a:hover {
  * order: 2;
  *  }
  **/
- 
- 
+
+
 @media (max-width: 760px) { .container {
  -webkit-flex-flow: row wrap; /* Fix for iOS */
 	-moz-flex-flow: row wrap;
@@ -129,6 +138,6 @@ a:hover {
 	justify-content: space-around;
     }
     .container > div p {
-  width: 92%;    
+  width: 92%;
 }
 }

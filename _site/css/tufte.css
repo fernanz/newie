@@ -3,10 +3,8 @@
 @import url(https://brick.a.ssl.fastly.net/Oswald:200,300);
 @font-face { font-family: OpenSans;
              src: url("fonts/OpenSans-Light.ttf"); }
-@font-face { font-family: WorkSans Bold;
+@font-face { font-family: WorkSans-Bold;
              src: url("fonts/WorkSans-Bold.ttf"); }
-@font-face { font-family: Novum;
-             src: url("fonts/Novum.ttf"); }
 
 html { font-size: 100%; }
 
@@ -14,7 +12,7 @@ body { background-color: #fffff8;
         margin: 0 auto;}
 
 #bkg {
-      background:  url(../IMG/mark.svg) center top no-repeat rgba(74,95,112,0.3);
+      background: rgba(74,95,112,0.3);
       background-blend-mode: color-burn;
       padding: 0 55px 0 55px;
 }
@@ -40,9 +38,9 @@ body { background-color: #fffff8;
        max-width: 1400px;
        counter-reset: sidenote-counter; }
 
-h1 { font-family: "Oswald"; 
-	 font-weight: 200; 
-	 font-style: normal; 
+h1 { font-family: "Oswald";
+	 font-weight: 200;
+	 font-style: normal;
      color: #333;
      margin-top: 1rem;
      margin-bottom: 1.5rem;
@@ -58,7 +56,7 @@ article > h1 {width: 55%;
 
 h1 > a {border-bottom: none !important;}
 
-.fer h1 { 
+.fer h1 {
      font-family: "Oswald";
      font-weight: 100;
      font-size: 2rem;
@@ -74,16 +72,16 @@ h1 > a {border-bottom: none !important;}
     min-height: 150px;
  }
 
-h2 { font-family: "Oswald"; 
+h2 { font-family: "Oswald";
 	 font-style: normal;
      font-weight: 400;
      margin-top: 2.1rem;
      margin-bottom: 0;
      font-size: 2.2rem;
-     line-height: 1; 
+     line-height: 1;
      color: darkslategrey;}
 
-h3 { font-family: "Oswald"; 
+h3 { font-family: "Oswald";
 	 font-style: normal;
      font-weight: 400;
      font-size: 1.7rem;
@@ -107,9 +105,9 @@ p.subtitle { font-style: normal;
     min-height: 75px;
     margin-left: auto;
     margin-right: auto;
-    position: relative; 
+    position: relative;
 }
-  
+
 #footer {
 	background-color: #4a5f70;
 	border-top: 3px solid #bada55;
@@ -124,7 +122,7 @@ p.subtitle { font-style: normal;
 	font-size: 1rem;
 	line-height: 1.3rem;
 	text-align: center;
-	color: #c8c8c8; 
+	color: #c8c8c8;
 }
 
 #footer-social {
@@ -138,7 +136,7 @@ ul.footer-social {
 }
 
 .footer-social li {
-    width: 64px; 
+    width: 64px;
     text-align: center;
     display: inline-block;
     margin: 0 20px;
@@ -186,7 +184,7 @@ table.booktabs { width: auto;
 
 .booktabs th.nocmid { border-bottom: none; }
 
-.booktabs tbody tr:first-child td { padding-top: 0.65ex; } /* add space between thead row and tbody */ 
+.booktabs tbody tr:first-child td { padding-top: 0.65ex; } /* add space between thead row and tbody */
 
 .booktabs td { padding-left: 0.5em;
                padding-right: 0.5em;
@@ -242,7 +240,7 @@ nav li {
         display: inline;
         padding-left: 15px;
         margin-left: 20px;
-        float: right;  
+        float: right;
      }
 
 header a {
@@ -315,7 +313,7 @@ img { max-width: 100%; }
                                            vertical-align: baseline;
                                            color: #f00000; }
 
-.sidenote-number:after { content: counter(sidenote-counter); 
+.sidenote-number:after { content: counter(sidenote-counter);
                          font-size: 0.9rem;
                          top: -0.5rem;
                          left: 0.1rem; }
@@ -365,7 +363,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 
 @media (max-width: 760px) { label.margin-toggle:not(.sidenote-number) { display: inline; }
                             .sidenote, .marginnote { display: none; }
-                            .margin-toggle:checked + .sidenote, 
+                            .margin-toggle:checked + .sidenote,
                             .margin-toggle:checked + .marginnote { display: block;
                                                                    float: left;
                                                                    left: 1rem;
@@ -375,7 +373,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                                                                    vertical-align: baseline;
                                                                    position: relative; }
                             label { cursor: pointer; }
-                            pre.code { width: 90%; 
+                            pre.code { width: 90%;
                                        padding: 0; }
                             .table-caption { display: block;
                                              float: right;
@@ -388,8 +386,8 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
                                              vertical-align: baseline;
                                              position: relative; }
                             table, table.booktabs { width: 85%; }
-                            img { width: 100%; } 
-    #bkg { background: rgba(74,95,112,0.3); 
+                            img { width: 100%; }
+    #bkg { background: rgba(74,95,112,0.3);
             padding: 0 5px 0 5px;}
     .fer { min-height: 50px;}
 
