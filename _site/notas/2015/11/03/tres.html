@@ -6,15 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>“Tres”</title>
+  <title>He aquí cuando tenemos tres líneas de texto para este título.</title>
   <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tortor eu tortor vestibulum suscipit eu nec justo. Quisque sollicitudin bibendum gravi...">
 
   <link rel="stylesheet" href="/css/tufte.css"/>
+  <link rel="stylesheet" href="/css/buttons.css"/>
+  <link rel="stylesheet" href="/css/forms.css"/>
+  <link rel="stylesheet" href="/css/comments.css"/>
   <link rel="stylesheet" href="/css/solarized.css"/>
-  <link rel="stylesheet" href="/css/latex.css"/>
   <link rel="stylesheet" href="/css/flex.css"/>
   <link rel="stylesheet" href="/css/pod.css"/>
   <link rel="stylesheet" href="/css/icn.css"/>
+  <link rel="stylesheet" href="/css/ScrollTrigger.css"/>
   <link rel="stylesheet" href="https://brick.a.ssl.fastly.net/Libre+Baskerville:400,400i">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" type="text/css">
   <link rel="stylesheet" href="https://brick.a.ssl.fastly.net/Oswald:200,300">
@@ -31,30 +34,36 @@
     <nav>
         <ul>
             <li><a href="http://fernanz.github.io">Mi otro sitio</a></li>
-            <li><a href="#">Microblog</a></li>
+            <li><a href="/archivo/">Index</a></li>
         </ul>
     </nav>
 </header>
 
     <div id="post-header">
 <div class="fer">
-    <h1><a href="/" title="Fernando Mayorga" >FERNANDO MAYORGA</a></h1>
-</div>   
+  <h1><a href="/" title="FERNANDO MAYORGA" style="text-transform: uppercase;">FERNANDO MAYORGA</a> <br  />
+      <svg width="125" height="125" class="Icon Icon--fer" aria-hidden="true">
+            <use xlink:href="/IMG/icn.svg#ferlog"></use>
+      </svg>
+  </h1>
+</div>
 </div>
 
-<div id="wrap">
+
+<div class="main">
 <article>
 
- 
-    <h1 class="post-title" itemprop="name headline">“Tres”</h1>
+    <h1 itemprop="name headline">He aquí cuando tenemos tres líneas de texto para este título.</h1>
     <p class="post-meta subtitle">Publicado por <a href="/">Fernando</a>: <time datetime="2015-11-03T16:45:00-05:00" itemprop="datePublished">Nov 3, 2015</time></p>
- 
+    <br/>
 
-  <div class="post-content" itemprop="articleBody">
+<div class="post-content" itemprop="articleBody">
     <figure class="fullwidth"><img src="/Pics/una.jpg" /></figure>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tortor eu tortor vestibulum suscipit eu nec justo. Quisque sollicitudin bibendum gravida. Integer vitae ante condimentum, porta justo vel, suscipit enim. Sed fermentum felis non augue varius, non mattis leo mattis.</p>
 
-<p>Los Chongones, Chanduyes, Colonches y Lampunas (de la isla Puná) estaban entre las grandes comunidades indígenas que poblaron las actuales provincias de Guayas y Santa Elena. En conjunto, para los antropólogos, todas ellas eran una variante de la cultura Manteña, siendo <em>Emilio Estrada</em> el primero que los identificó como <strong>“Manteños del Sur”</strong> o <strong>“Huancavilcas”</strong>.</p>
+<blockquote>
+  <p>Los Chongones, Chanduyes, Colonches y Lampunas (de la isla Puná) estaban entre las grandes comunidades indígenas que poblaron las actuales provincias de Guayas y Santa Elena. En conjunto, para los antropólogos, todas ellas eran una variante de la cultura Manteña, siendo <em>Emilio Estrada</em> el primero que los identificó como <strong>“Manteños del Sur”</strong> o <strong>“Huancavilcas”</strong>.</p>
+</blockquote>
 
 <p>Cuando los conquistadores hispanos llegaron a nuestra tierra, los Manteños ya dominaban el arte de la navegación y habían desarrollado un ingenioso sistema de navegación con grandes balsas que aprovechaban la fuerza del viento por medio de velas y guares lo que les facilitó el control del tráfico y el comercio a lo largo de la costa del Pacífico, desde el norte de Chile hasta México. Los más diestros navegantes pertenecían a importantes señoríos como el de <strong>Jocay</strong> y <strong>Çalangome</strong> <em>-Ubicados en la ahora provincia de Manabí-</em> quienes además formaban parte de una “Liga de Mercaderes” (Jacinto Jijón y Caamaño: 1952). En cuanto a los Chongones, Zevallos Menéndez (1995) afirma que <em>“según viejas crónicas, fueron grandes guerreros que compartieron con los de la isla Puná el control de las islas del Estero Salado y gran parte del territorio que rodeaba lo que hoy es la ciudad de Guayaquil”</em>.</p>
 
@@ -69,27 +78,29 @@
 <p><strong>Hasta pronto</strong></p>
 
 
-  </div>
+    <div class="form-t">
+<div class="comments">
+</div>
+           <h3 class="subtitle is-3">Deja tu comentario</h3>
+               <form id="comment">
+                 <label for="message">Mensaje</label>
+                 <textarea id="message"></textarea>
+
+                 <label for="name">Nombre</label>
+                 <input type="text" id="name">
+
+                 <label for="email">Email</label>
+                 <input type="text" id="email">
+
+                 <input class="btn" type="submit" value="Enviar comentario">
+               </form>
+ </div>
+
+
+</div>
 
 </article>
 
-<div style="max-width: 700px;">
-  <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'fernandomayorga'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div> 
-   
 </div>
 
    <div id="footer">
@@ -104,7 +115,7 @@
           </li>
           
 
-     
+
           
           <li>
             <a href="https://twitter.com/fernanz"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="rgba(200,200,200,0.3)" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
@@ -112,21 +123,47 @@
 
           </li>
           
-          
-	</ul>     
-</div>  
 
-	<p>Personal website de Fernando Mayorga sobre Arte, Historia, Patrimonio Cultural ecuatoriano... y algo de Desarrollo Web.
-</p>
-	<p><a href="mailto:fmayorga.uno@gmail.com">fmayorga.uno@gmail.com</a></p>
-	<p>FERNANDO MAYORGA &copy; 2015</p>
-       
+	</ul>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="JS/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-        <script src="/JS/plugins.js"></script>
-        <script src="/JS/main.js"></script>
 
-  </body>
+	<p>Caminando al margen del tiempo, buscando una puerta a otra dimensión.
+</p>
+	<p><a class="claro" href="mailto:fmayorga.uno@gmail.com">fmayorga.uno@gmail.com</a></p>
+	<hr />
+
+<foot role="banner" style="text-align:center;">
+<h1 class="logo-title" data-scroll="toggle(.scaleDownIn, .scaleDownOut) addHeight">Fernando Mayorga <strong>&copy;</strong> 2016</h1>
+</foot>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="JS/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+<script src="/JS/plugins.js"></script>
+<script src="/JS/main.js"></script>
+<script src="/JS/ScrollTrigger.min.js"></script>
+<script>
+window.counter = function() {
+	// this refers to the html element with the data-scroll-showCallback tag
+	var span = this.querySelector('span');
+	var current = parseInt(span.textContent);
+
+	span.textContent = current + 1;
+};
+
+document.addEventListener('DOMContentLoaded', function(){
+  ScrollTrigger.init();
+});
+</script>
+
+
+<script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.0/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.1.0/js/md5.js"></script>
+<script src="/js/blog.js"></script>
+
+</body>
 
 </html>

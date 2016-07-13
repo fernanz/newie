@@ -1,11 +1,4 @@
-@font-face { font-family: OpenSans;
-             src: url("fonts/OpenSans-Light.ttf"); }
-@font-face { font-family: WorkSans-Bold;
-             src: url("fonts/WorkSans-Bold.ttf"); }
-
 /* All that's necessary */
-
-
 .container {
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
@@ -40,15 +33,18 @@
 }
 
 .container {
-  font-family: "OpenSans", Helvetica, sans-serif;
-  font-weight: normal;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400 normal;
   font-size: 1.3rem;
-  line-height: 1.7rem;
+  line-height: 1.6rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .container > div{
   background-color: none;
   padding: 1rem 2rem 0;
+  border-radius: 5px;
 }
 .container > div:first-child {
   background-color: none;
@@ -58,24 +54,22 @@
 }
 .container > div p {
   margin-bottom: 0;
-  width: 85%;
+  width: 90%;
+  font-size: 1.1rem;
 }
 
 .container > div a {
-	color: darkslategrey;
+	color: #111;
   text-decoration: none !important;
 }
 
 .container > div a:hover {
-	color: #fff;
+	color: #aaa;
 }
 
 .container > div img {
   width: 100%;
   border-radius: 5px;
-  -webkit-filter: opacity(0.8);
-  -moz-filter: opacity(0.8);
-  filter: opacity(0.8);
 }
 
 .container > div img:hover {
@@ -84,6 +78,9 @@
   -webkit-filter: none;
   -moz-filter: none;
   filter: none;
+  -webkit-filter: opacity(0.5);
+  -moz-filter: opacity(0.5);
+  filter: opacity(0.5);
   -webkit-transition: all 2s ease;
   -moz-transition: all 2s ease;
   -o-transition: all 2s ease;
@@ -94,12 +91,11 @@
  margin-bottom:-10px;
 }
 .container > div h2 {
-  font-family: "WorkSans-Bold", sans-serif;
-  font-size: 1.6rem;
-  font-weight: bold;
+  font-family: "Arya", sans-serif;
+  font-size: 2rem;
+  line-height: 1.9rem;
+  font-weight: 500;
   margin-bottom: 1rem;
-  letter-spacing: 1px;
-  color: darkslategrey;
 }
 
 .container code {
@@ -128,6 +124,97 @@ h2 > a {
  *  }
  **/
 
+#container_capsulas {
+   background-color: #37474F !important;
+   padding-top: 3em;
+}
+
+ .capsulas {
+   -webkit-box-align: stretch;
+   -webkit-align-items: stretch;
+       -ms-flex-align: stretch;
+           align-items: stretch;
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+   clear:left;
+ }
+ .capsulas > div {
+     display: inline-block;
+   /* fixes a quirk in Safari */
+   -webkit-box-flex: 1;
+   -webkit-flex: 1 1 100%;
+       -ms-flex: 1 1 100%;
+           flex: 1 1 100%;
+   /**
+    * flex: x y z;
+   /**
+    * is shorthand for:
+    * flex-grow: x
+    * flex-shrink: y
+    * flex-basis: z
+    **/
+ }
+
+ .capsulas {
+   font-family: "Hack", sans-serif;
+   font-weight: normal;
+   font-size: 0.8rem;
+   line-height: 1rem;
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+
+ .capsulas > div figure {
+   max-width: 65%;
+ }
+
+ .capsulas > div img {
+   max-width: 85%;
+   border-radius: 5px;
+   -webkit-box-shadow: 6px 7px 13px -6px rgba(0,0,0,0.75);
+   -moz-box-shadow: 6px 7px 13px -6px rgba(0,0,0,0.75);
+   box-shadow: 6px 7px 13px -6px rgba(0,0,0,0.75);
+ }
+
+ .capsulas > div h2 {
+   font-family: "Arya", sans-serif;
+   font-size: 2.3rem;
+   font-weight: 600;
+   letter-spacing: 1px;
+   color: #ffffff;
+   line-height: 1.25;
+   max-width: 16em;
+   margin: 3rem 0 1.5rem 0
+ }
+
+ .capsulas > div p {
+   font-family: "Hack", sans-serif;
+   font-weight: normal;
+   font-size: 1rem;
+   line-height: 1.3rem;
+   max-width: 31.250em;
+   margin: 2 0 1.65rem;
+   color: rgba(225,225,225,0.5);
+ }
+
+ .capsulas > div a {
+ 	color: #ffffff;
+   text-decoration: none !important;
+ }
+
+ .capsulas > div a:hover {
+ 	color: rgba(225,225,225,0.5);
+ }
+
+ .five {
+ 	background-color: #37474F !important;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  padding-left: 35px;
+ 	}
+
 
 @media (max-width: 760px) { .container {
  -webkit-flex-flow: row wrap; /* Fix for iOS */
@@ -137,7 +224,25 @@ h2 > a {
 	-moz-justify-content: space-around;
 	justify-content: space-around;
     }
-    .container > div p {
+  .capsulas {
+  -webkit-flex-flow: row wrap; /* Fix for iOS */
+  -moz-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+        }
+  .container > div p {
   width: 92%;
+}
+  .capsulas > div p {
+  width: 95%;
+  text-align: left;
+}
+  .capsulas > div img {
+  width: 100%;
+}
+ .capsulas > div h2 {
+   text-align: left;
 }
 }

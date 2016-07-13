@@ -10,7 +10,7 @@
 .pod{
     background: url(../Pics/sens.jpg);
     max-width: 700px;
-    margin: 0 auto 35px auto;
+    margin: 0 100px 35px 0;
     float:left;
 }
 
@@ -73,76 +73,6 @@
     text-decoration: none;
 
 }
-
-/* botones */
-
-
-.button {
-    color: #fffff8;
-    background: #10bbf1;
-    height: 58px;
-    border: 1px solid #fffff8;
-    font: 700 20px "OpenSans", "Raleway", sans-serif;
-    padding: 0 21px;
-    margin-left: auto;
-    margin-bottom: 25px;
-    width: 250px;
-    text-align: center;
-    -moz-transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
-    -ms-transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
-    -o-transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
-    -webkit-transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
-    transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.button:hover {
-    background: #40c9f4;
-    border-color: #40c9f4;
-}
-
-.button:active {
-    background: #0b97c3;
-    border-color: #0b97c3;
-}
-
-a.button {
-    text-decoration: none;
-    display: inline-block;
-    line-height: 54px;
-    color: #fffff8;
-}
-
-a.button:hover {
-    color: white
-}
-
-a.button:active {
-    color: white
-}
-
-a.button.button-stripe {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-color: white;
-}
-
-a.button.button-stripe:hover {
-    color: rgb(74,95,112);
-    background-color: #fffff8;
-    border-color: #fffff8;
-}
-
-a.button.button-stripe:active {
-    color: #222222;
-    background-color: #e5e5e5;
-    border-color: #e5e5e5;
-}
-
 
 /* layout */
 

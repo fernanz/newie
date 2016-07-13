@@ -1,0 +1,19 @@
+---
+layout: capsulas
+description: Se dice que cuando aún era de noche, cuando aún no había luz, cuando aún no amanecía, dicen que se juntaron, se llamaron unos a otros los dioses, allá en Teotihuacán.
+title: Cápsulas
+permalink: /capsulas/
+---
+
+<div>
+<article>
+
+  {% for capsula in site.capsulas limit: 5 %}
+  <h1><a href="{{ capsula.url }}">{{ capsula.title }}</a></h1>
+  <p class="subtitle">Publicado por <a href="#footer">Fernando</a> el {{ capsula.date | date_to_string }}</p>
+  <br/>
+  {{ capsula.content}}
+  {% endfor %}
+</article>
+
+</div>

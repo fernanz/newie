@@ -6,8 +6,9 @@
         </svg>
     </h1>
 </div>
+
 <div class="container">
-	{% for post in site.posts offset: 1 limit: 3 %}
+	{% for post in site.posts offset: 1 limit: 2 %}
 
 	  <div >
 	  <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
@@ -19,7 +20,9 @@
 
 	{% endfor %}
 </div>
+
 <div class="mid">
-<a class="button button-stripe" href="/archive.html">Artículos anteriores</a>
+<a class="buttonz" href="/archivo/">Artículos anteriores</a>
 </div>
+
 </div>

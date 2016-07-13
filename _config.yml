@@ -9,7 +9,7 @@
 title: FERNANDO MAYORGA
 email: fmayorga.uno@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Personal website de Fernando Mayorga sobre Arte, Historia, Patrimonio Cultural ecuatoriano... y algo de Desarrollo Web.
+  Caminando al margen del tiempo, buscando una puerta a otra dimensión.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://fernanz.github.io" # the base hostname & protocol for your site
 twitter_username: fernanz
@@ -20,3 +20,12 @@ name: FERNANDO MAYORGA
 markdown: kramdown
 highlighter: rouge
 
+# Settings extra
+collections:
+    capsulas:
+        output: true
+defaults:
+  - scope:
+      type: capsula
+    values:
+      layout: post

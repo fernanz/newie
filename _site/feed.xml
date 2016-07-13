@@ -2,21 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FERNANDO MAYORGA</title>
-    <description>Personal website de Fernando Mayorga sobre Arte, Historia, Patrimonio Cultural ecuatoriano... y algo de Desarrollo Web.
+    <description>Caminando al margen del tiempo, buscando una puerta a otra dimensión.
 </description>
     <link>http://fernanz.github.io/</link>
     <atom:link href="http://fernanz.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Apr 2016 08:10:07 -0500</pubDate>
-    <lastBuildDate>Tue, 26 Apr 2016 08:10:07 -0500</lastBuildDate>
-    <generator>Jekyll v3.1.3</generator>
+    <pubDate>Tue, 12 Jul 2016 01:29:40 -0500</pubDate>
+    <lastBuildDate>Tue, 12 Jul 2016 01:29:40 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>Sitio Web Con Jekyll</title>
-        <description>&lt;h2 id=&quot;cdigo-de-ejemplo&quot;&gt;Código de ejemplo.&lt;/h2&gt;
-
+        <description>&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/Pics/cli.jpg&quot; /&gt;&lt;/figure&gt;
 &lt;p&gt;Para probar la presentación con líneas de código… el ejemplo para la Terminal:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/Desktop &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; mkdir my-new-dir&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;pre&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.gd&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:after&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;pre&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.gd&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.x&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:after&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;pre&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.gi&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:after&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;pre&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.gi&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.x&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:after&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;absolute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;z-index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;top&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;bottom&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.code-highlight-pre&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#002731&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.code-highlight-row.numbered&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:before&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#586e75&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#073642&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;border-right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#00232c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;box-shadow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#083e4b&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-1px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;inset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;text-shadow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#021014&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-1px&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.marked-line&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;.code-highlight-line&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:before&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rgba&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;186&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.13&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.marked-line.numbered&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:before&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rgba&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;186&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;255&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.13&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;border-right-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rgba&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;112&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;153&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.13&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Y ahora un Gist:&lt;/p&gt;
 
@@ -31,7 +58,7 @@
       </item>
     
       <item>
-        <title>“Dos”</title>
+        <title>Título con dos líneas de texto en su párrafo.</title>
         <description>&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/Pics/111.jpg&quot; /&gt;&lt;/figure&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tortor eu tortor vestibulum suscipit eu nec justo. Quisque sollicitudin bibendum gravida. Integer vitae ante condimentum, porta justo vel, suscipit enim. Sed fermentum felis non augue varius, non mattis leo mattis.&lt;/p&gt;
 
@@ -63,7 +90,6 @@
 &lt;/section&gt;
 
 &lt;p&gt;&lt;strong&gt;Hasta pronto&lt;/strong&gt;&lt;/p&gt;
-
 </description>
         <pubDate>Thu, 05 Nov 2015 16:45:00 -0500</pubDate>
         <link>http://fernanz.github.io/notas/2015/11/05/dos.html</link>
@@ -75,7 +101,7 @@
       </item>
     
       <item>
-        <title>“Uno”</title>
+        <title>Titular de una línea.</title>
         <description>&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/Pics/booty.jpg&quot; /&gt;&lt;/figure&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tortor eu tortor vestibulum suscipit eu nec justo. Quisque sollicitudin bibendum gravida. Integer vitae ante condimentum, porta justo vel, suscipit enim. Sed fermentum felis non augue varius, non mattis leo mattis.&lt;/p&gt;
 
@@ -92,7 +118,6 @@
 &lt;p&gt;De la referencia anterior, tal parece que para Cieza de León, todos los pueblos mencionados eran Guancavilcas y estaban bajo la jurisdicción de la recién fundada Santiago de Guayaquil; sin embargo, otro cronista casi contemporáneo al referido parece ser más agudo en su observación al discernir entre &lt;strong&gt;Guancavilcas&lt;/strong&gt; y &lt;strong&gt;Chonos&lt;/strong&gt; que poblaban la ciudad de aquel entonces: se trata del fraile Reginaldo de Lizarraga (1545?-1615) quien anota sobre la ciudad de Guayaquil que: &lt;em&gt;“Viven en esta ciudad y su distrito dos naciones de indios, unos llamados guamcavillcas, gente bien dispuesta y blanca, limpios en sus vestidos y de buen parecer; los otros se llaman chonos, morenos, no tan políticos como los guamcavillcas; los unos y los otros es gente guerrera; sus armas, arco y flecha. Tienen los chonos mala fama en el vicio nefando; el cabello traen un poco alto y el cogote trasquilado, con lo cual los demás indios los afrentan en burlas y en veras; llámanlos perros chonos cocotados, como luego diremos.”&lt;/em&gt; La transcripción procede del libro primero de la llamada &lt;strong&gt;Descripción colonial&lt;/strong&gt;, cuyo verdadero título es &lt;strong&gt;«Descripción breve de toda la tierra del Perú, Tucumán, Río de la Plata y Chile»&lt;/strong&gt;. Al respecto debo acotar que la denominación de Chonos, es la que arqueológicamente se llama cultura Milagro-Quevedo, cultura que compartía parte del territorio de la cuenca del río Guayas con los Guancavilcas, y más bien estaba asentada hacia el interior del litoral ecuatoriano.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hasta pronto&lt;/strong&gt;&lt;/p&gt;
-
 </description>
         <pubDate>Wed, 04 Nov 2015 16:45:00 -0500</pubDate>
         <link>http://fernanz.github.io/notas/2015/11/04/uno.html</link>
@@ -104,11 +129,13 @@
       </item>
     
       <item>
-        <title>“Tres”</title>
+        <title>He aquí cuando tenemos tres líneas de texto para este título.</title>
         <description>&lt;figure class=&quot;fullwidth&quot;&gt;&lt;img src=&quot;/Pics/una.jpg&quot; /&gt;&lt;/figure&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tortor eu tortor vestibulum suscipit eu nec justo. Quisque sollicitudin bibendum gravida. Integer vitae ante condimentum, porta justo vel, suscipit enim. Sed fermentum felis non augue varius, non mattis leo mattis.&lt;/p&gt;
 
-&lt;p&gt;Los Chongones, Chanduyes, Colonches y Lampunas (de la isla Puná) estaban entre las grandes comunidades indígenas que poblaron las actuales provincias de Guayas y Santa Elena. En conjunto, para los antropólogos, todas ellas eran una variante de la cultura Manteña, siendo &lt;em&gt;Emilio Estrada&lt;/em&gt; el primero que los identificó como &lt;strong&gt;“Manteños del Sur”&lt;/strong&gt; o &lt;strong&gt;“Huancavilcas”&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Los Chongones, Chanduyes, Colonches y Lampunas (de la isla Puná) estaban entre las grandes comunidades indígenas que poblaron las actuales provincias de Guayas y Santa Elena. En conjunto, para los antropólogos, todas ellas eran una variante de la cultura Manteña, siendo &lt;em&gt;Emilio Estrada&lt;/em&gt; el primero que los identificó como &lt;strong&gt;“Manteños del Sur”&lt;/strong&gt; o &lt;strong&gt;“Huancavilcas”&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Cuando los conquistadores hispanos llegaron a nuestra tierra, los Manteños ya dominaban el arte de la navegación y habían desarrollado un ingenioso sistema de navegación con grandes balsas que aprovechaban la fuerza del viento por medio de velas y guares lo que les facilitó el control del tráfico y el comercio a lo largo de la costa del Pacífico, desde el norte de Chile hasta México. Los más diestros navegantes pertenecían a importantes señoríos como el de &lt;strong&gt;Jocay&lt;/strong&gt; y &lt;strong&gt;Çalangome&lt;/strong&gt; &lt;em&gt;-Ubicados en la ahora provincia de Manabí-&lt;/em&gt; quienes además formaban parte de una “Liga de Mercaderes” (Jacinto Jijón y Caamaño: 1952). En cuanto a los Chongones, Zevallos Menéndez (1995) afirma que &lt;em&gt;“según viejas crónicas, fueron grandes guerreros que compartieron con los de la isla Puná el control de las islas del Estero Salado y gran parte del territorio que rodeaba lo que hoy es la ciudad de Guayaquil”&lt;/em&gt;.&lt;/p&gt;
 
@@ -121,7 +148,6 @@
 &lt;p&gt;De la referencia anterior, tal parece que para Cieza de León, todos los pueblos mencionados eran Guancavilcas y estaban bajo la jurisdicción de la recién fundada Santiago de Guayaquil; sin embargo, otro cronista casi contemporáneo al referido parece ser más agudo en su observación al discernir entre &lt;strong&gt;Guancavilcas&lt;/strong&gt; y &lt;strong&gt;Chonos&lt;/strong&gt; que poblaban la ciudad de aquel entonces: se trata del fraile Reginaldo de Lizarraga (1545?-1615) quien anota sobre la ciudad de Guayaquil que: &lt;em&gt;“Viven en esta ciudad y su distrito dos naciones de indios, unos llamados guamcavillcas, gente bien dispuesta y blanca, limpios en sus vestidos y de buen parecer; los otros se llaman chonos, morenos, no tan políticos como los guamcavillcas; los unos y los otros es gente guerrera; sus armas, arco y flecha. Tienen los chonos mala fama en el vicio nefando; el cabello traen un poco alto y el cogote trasquilado, con lo cual los demás indios los afrentan en burlas y en veras; llámanlos perros chonos cocotados, como luego diremos.”&lt;/em&gt; La transcripción procede del libro primero de la llamada &lt;strong&gt;Descripción colonial&lt;/strong&gt;, cuyo verdadero título es &lt;strong&gt;«Descripción breve de toda la tierra del Perú, Tucumán, Río de la Plata y Chile»&lt;/strong&gt;. Al respecto debo acotar que la denominación de Chonos, es la que arqueológicamente se llama cultura Milagro-Quevedo, cultura que compartía parte del territorio de la cuenca del río Guayas con los Guancavilcas, y más bien estaba asentada hacia el interior del litoral ecuatoriano.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hasta pronto&lt;/strong&gt;&lt;/p&gt;
-
 </description>
         <pubDate>Tue, 03 Nov 2015 16:45:00 -0500</pubDate>
         <link>http://fernanz.github.io/notas/2015/11/03/tres.html</link>

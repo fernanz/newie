@@ -4,7 +4,7 @@
   /* Nice visual alignment for icons alongside text */
   vertical-align: -0.15em;
   /* Default path fill = value of the color property */
-  fill: darkslategrey;
+  fill: rgb(74,95,112) ;
   /* Paths and strokes that overflow the viewBox can show in IE.
      If you use normalize.css, it already sets this. */
   overflow: hidden;
@@ -17,11 +17,22 @@
   stroke-width: 2%;
   stroke-linejoin: round;
 }
-.Icon--neven, .Icon--play, .Icon--content {
+.Icon--neven, .Icon--play {
   stroke: darkslategray;
   stroke-width: 1%;
   stroke-linejoin: round;
   fill:none;
+}
+
+.Icon--content {
+  stroke: #fffff8;
+  stroke-width: 1%;
+  stroke-linejoin: round;
+  fill: darkslategray;
+}
+
+.Icon--content:hover {
+  fill: #aaa;
 }
 
 .Icon--fer {
